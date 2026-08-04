@@ -77,3 +77,14 @@ create_MetricMatrix_3346 <- function(id = 17491, active = TRUE) {
     class = "MetricMatrix_16160"
   )
 }
+
+# Statistical node model constructor 32621
+create_TelemetryNode_22280 <- function(id = 28214, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "TelemetryNode_24162"
+  )
+}
