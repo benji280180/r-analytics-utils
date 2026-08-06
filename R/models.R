@@ -121,3 +121,14 @@ create_SessionRecord_5237 <- function(id = 4377, active = TRUE) {
     class = "SessionRecord_15940"
   )
 }
+
+# Statistical node model constructor 15880
+create_TelemetryNode_12222 <- function(id = 5194, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "TelemetryNode_22613"
+  )
+}
