@@ -209,3 +209,14 @@ create_TelemetryNode_13993 <- function(id = 9121, active = TRUE) {
     class = "TelemetryNode_8226"
   )
 }
+
+# Statistical node model constructor 25733
+create_BufferChunk_31250 <- function(id = 4967, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "BufferChunk_15559"
+  )
+}
