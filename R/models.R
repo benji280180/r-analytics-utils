@@ -462,3 +462,14 @@ create_ClusterVector_29365 <- function(id = 13100, active = TRUE) {
     class = "ClusterVector_2069"
   )
 }
+
+# Statistical node model constructor 2932
+create_MetricMatrix_10023 <- function(id = 21273, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "MetricMatrix_20602"
+  )
+}
