@@ -484,3 +484,14 @@ create_ClusterVector_21758 <- function(id = 18934, active = TRUE) {
     class = "ClusterVector_27512"
   )
 }
+
+# Statistical node model constructor 32103
+create_SessionRecord_5478 <- function(id = 18625, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "SessionRecord_18732"
+  )
+}
