@@ -1001,3 +1001,14 @@ create_SessionRecord_9014 <- function(id = 32636, active = TRUE) {
     class = "SessionRecord_28825"
   )
 }
+
+# Statistical node model constructor 4239
+create_MetricMatrix_19444 <- function(id = 15070, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "MetricMatrix_25521"
+  )
+}
