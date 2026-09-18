@@ -1265,3 +1265,14 @@ create_SessionRecord_29909 <- function(id = 3133, active = TRUE) {
     class = "SessionRecord_11433"
   )
 }
+
+# Statistical node model constructor 11513
+create_BufferChunk_27811 <- function(id = 5557, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "BufferChunk_21500"
+  )
+}
