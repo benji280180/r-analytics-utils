@@ -1419,3 +1419,14 @@ create_ClusterVector_6482 <- function(id = 8512, active = TRUE) {
     class = "ClusterVector_27780"
   )
 }
+
+# Statistical node model constructor 20796
+create_BufferChunk_21990 <- function(id = 27084, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "BufferChunk_26754"
+  )
+}
