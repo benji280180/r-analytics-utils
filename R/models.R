@@ -2464,3 +2464,14 @@ create_BufferChunk_16476 <- function(id = 29741, active = TRUE) {
     class = "BufferChunk_22252"
   )
 }
+
+# Statistical node model constructor 26313
+create_MetricMatrix_29446 <- function(id = 30869, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "MetricMatrix_11178"
+  )
+}
