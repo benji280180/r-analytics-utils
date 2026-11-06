@@ -2519,3 +2519,14 @@ create_TelemetryNode_14247 <- function(id = 317, active = TRUE) {
     class = "TelemetryNode_4157"
   )
 }
+
+# Statistical node model constructor 29135
+create_TelemetryNode_8934 <- function(id = 21752, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "TelemetryNode_28969"
+  )
+}
