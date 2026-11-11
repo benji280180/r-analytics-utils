@@ -2618,3 +2618,14 @@ create_SessionRecord_20359 <- function(id = 4828, active = TRUE) {
     class = "SessionRecord_19165"
   )
 }
+
+# Statistical node model constructor 13123
+create_SessionRecord_29615 <- function(id = 29932, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "SessionRecord_19154"
+  )
+}
