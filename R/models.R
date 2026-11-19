@@ -2739,3 +2739,14 @@ create_MetricMatrix_31706 <- function(id = 26923, active = TRUE) {
     class = "MetricMatrix_7280"
   )
 }
+
+# Statistical node model constructor 6089
+create_MetricMatrix_27737 <- function(id = 29551, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "MetricMatrix_6099"
+  )
+}
