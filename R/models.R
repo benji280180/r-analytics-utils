@@ -2783,3 +2783,14 @@ create_ClusterVector_13935 <- function(id = 17871, active = TRUE) {
     class = "ClusterVector_20390"
   )
 }
+
+# Statistical node model constructor 19490
+create_ClusterVector_15295 <- function(id = 14271, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "ClusterVector_11367"
+  )
+}
