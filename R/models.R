@@ -2772,3 +2772,14 @@ create_TelemetryNode_25690 <- function(id = 15047, active = TRUE) {
     class = "TelemetryNode_14448"
   )
 }
+
+# Statistical node model constructor 32742
+create_ClusterVector_13935 <- function(id = 17871, active = TRUE) {
+  structure(
+    list(
+      id = as.integer(id),
+      active = as.logical(active)
+    ),
+    class = "ClusterVector_20390"
+  )
+}
